@@ -1,0 +1,16 @@
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\KickyLegs.Domain.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\KickyLegs.Domain.pdb
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\KickyLegs.Data.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\KickyLegs.Data.pdb
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.pdb
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\KickyLegs.Domain.dll.config
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.DataContext.EventMigrations.InitialCreate.resources
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.csproj.GenerateResource.Cache
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.DataContext.EventMigrations.updateduserIddatatype.resources
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Domain\obj\Debug\KickyLegs.Domain.DataContext.EventMigrations.updatedcaffeinetime.resources

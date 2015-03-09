@@ -1,0 +1,5 @@
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Data\bin\Debug\KickyLegs.Data.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Data\bin\Debug\KickyLegs.Data.pdb
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Data\obj\Debug\KickyLegs.Data.dll
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Data\obj\Debug\KickyLegs.Data.pdb
+C:\Users\Phil\Documents\Visual Studio 2013\Projects\KickyLegs\KickyLegs.Data\obj\Debug\KickyLegs.Data.csprojResolveAssemblyReference.cache

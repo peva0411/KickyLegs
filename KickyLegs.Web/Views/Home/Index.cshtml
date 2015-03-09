@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="fill-screen" style="background-image: url(/Content/img/legs_darker.jpg)">
+
+            <a id="scroll-down" href="#desc"><i class="scroll fa fa-arrow-circle-down fa-2x"></i></a>
+
+            <div class="col-md-12">
+                <div class="title-banner">
+                    <h3>Welcome to</h3>
+                    <h1>Kicky Legs</h1>
+                    <p>A simple web app to record restless leg events.</p>
+                    <div class="home-btns">
+                        
+                        @if (Request.IsAuthenticated)
+                        {
+                            @Html.ActionLink("View Events", "Index", "Events", null, htmlAttributes: new {@class = "btn btn-primary btn-lg"})
+                            @Html.ActionLink("Create Event", "Create", "Events", null, htmlAttributes: new {@class = "btn btn-primary btn-lg"})
+                        }
+                        else
+                        {
+                            @Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { @class= "btn btn-primary btn-lg"})
+                            @Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { @class="btn btn-primary btn-lg" })
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="desc" class="row desc-section">
+        <div class="desc-element col-md-4">
+            <i class="fa fa-list fa-5x"></i>
+            <h1>Record Events</h1>
+            <p>
+                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+            </p>
+        </div>
+        <div class="desc-element col-md-4">
+            <i class="fa fa-bar-chart-o fa-5x"></i>
+            <h1>Chart Events</h1>
+            <p>
+                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+            </p>
+        </div>
+        <div class="desc-element col-md-4">
+            <i class="fa fa-university fa-5x"></i>
+            <h1>Something</h1>
+            <p>
+                Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+            </p>
+        </div>
+    </section>
+    <section class="row">
+        <div class="fill-screen fixed-attachment" style="background-image: url(/Content/img/converse-fields.jpg)">
+        </div>
+    </section>
+    <section class="row desc-section">
+        <div class="desc-element col-md-6">
+            <div> <i class="fa fa-rocket fa-5x"></i></div>
+            <div>
+                Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.
+            </div>
+        </div>
+        <div class="desc-element col-md-6">
+            <div> <i class="fa fa-users fa-5x"></i></div>
+            <div>
+                Laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non varius purus aenean nec magna felis fusce vestibulum.
+            </div>
+        </div>
+    </section>
+    <section class="row">
+        <div class="fill-screen fixed-attachment" style="background-image: url(/Content/img/legs-stairs.jpg)">
+        </div>
+    </section>
+
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+
+        $(window).on("load resize", function () {
+            $(".fill-screen").css("height", window.innerHeight);
+        });
+
+        $('#scroll-down').bind('click', function () {
+            $('html, body').stop().animate({
+                scrollTop: $($(this).attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+        });
+
+    </script>
+
+}
+
+

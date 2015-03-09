@@ -1,0 +1,56 @@
+﻿@model IEnumerable<KickyLegs.Data.Event>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container-fluid content-holder">
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastCaffeine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastFood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duration)
+            </th>
+        
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastCaffeine)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastFood)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Duration)
+                </td>
+              
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.EventId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.EventId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.EventId })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickyLegs.Web", "KickyLegs.Web\KickyLegs.Web.csproj", "{8AE3996D-CB31-409D-AE84-4A35A2BFC8EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickyLegs.Data", "KickyLegs.Data\KickyLegs.Data.csproj", "{C5E68675-6A4D-46AF-93C7-1622E955B975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KickyLegs.Domain", "KickyLegs.Domain\KickyLegs.Domain.csproj", "{9FA6CB05-C552-46FB-A227-7AE4B987D452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AE3996D-CB31-409D-AE84-4A35A2BFC8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE3996D-CB31-409D-AE84-4A35A2BFC8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE3996D-CB31-409D-AE84-4A35A2BFC8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE3996D-CB31-409D-AE84-4A35A2BFC8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E68675-6A4D-46AF-93C7-1622E955B975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E68675-6A4D-46AF-93C7-1622E955B975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E68675-6A4D-46AF-93C7-1622E955B975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E68675-6A4D-46AF-93C7-1622E955B975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA6CB05-C552-46FB-A227-7AE4B987D452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA6CB05-C552-46FB-A227-7AE4B987D452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA6CB05-C552-46FB-A227-7AE4B987D452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA6CB05-C552-46FB-A227-7AE4B987D452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
