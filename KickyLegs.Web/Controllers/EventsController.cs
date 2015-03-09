@@ -14,6 +14,7 @@ using Microsoft.AspNet.Identity;
 
 namespace KickyLegs.Web.Controllers
 {
+    [Authorize]
     public class EventsController : Controller
     {
 
@@ -24,11 +25,10 @@ namespace KickyLegs.Web.Controllers
             _eventRepository = new EventRepository(new EventDbContext());
         }
 
-
         // GET: Events
         public ActionResult Index()
         {
-            return View(_eventRepository.GetEvents());
+            return View(_eventRepository.GetUserEvents(User.Identity.GetUserId()));
         }
 
         // GET: Events/Details/5
